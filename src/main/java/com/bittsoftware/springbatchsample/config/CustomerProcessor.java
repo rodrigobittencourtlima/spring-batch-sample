@@ -8,6 +8,10 @@ public class CustomerProcessor implements ItemProcessor<Customer, Customer> {
     // here you can add any logic to process each item if necessary
     @Override
     public Customer process(Customer item) throws Exception {
+//        if (item.getCountry().equals("United States")) {
+//            return item;
+//        }
+//        return null;
         return item;
     }
 }
